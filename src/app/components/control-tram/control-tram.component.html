@@ -1,0 +1,14 @@
+<p>
+  <button (click)="getNearlyTramStop()">Tram 1</button>
+</p>
+<p>
+  <button>Tram 2</button>
+</p>
+<p>
+  <button>Tram 3</button>
+</p>
+<p>
+  <button (click)="demoTram()">Tram demo</button>
+</p>
+
+<p>{{ tram$ | async | json}}</p>
